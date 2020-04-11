@@ -28,7 +28,7 @@ onetrip_elem=driver.find_element_by_css_selector("input[value=oneway]")
 print("status of one tip radio button:",onetrip_elem.is_selected())
 
 
-# print(driver.title)  # Title of the page
+ print(driver.title)  # Title of the page
 # driver.back()  # navigate on the back page,
 # driver.forward()  # navigate on the forward page
 
