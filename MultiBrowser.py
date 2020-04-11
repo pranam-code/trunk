@@ -29,6 +29,7 @@ print("status of one tip radio button:",onetrip_elem.is_selected())
 
 
  print(driver.title)  # Title of the page
+ driver.maximize_window()
 # driver.back()  # navigate on the back page,
 # driver.forward()  # navigate on the forward page
 
